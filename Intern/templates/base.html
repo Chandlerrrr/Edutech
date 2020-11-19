@@ -38,7 +38,7 @@
             {% if user.is_authenticated %}
                 <a class="dropdown-item" href="{% url 'logout' %}">Logout</a>
                 <a class="dropdown-item" href="{% url 'profile' %}">Profile</a>
-                <a class="dropdown-item" href="{% url 'post-create' %}">Write Question</a>
+                <a class="dropdown-item" href="{% url 'post-create' %}">Ask your doubt now </a>
             {% else %}
                 <a class="dropdown-item" href="{% url 'login' %}">LogIn</a>
                 <a class="dropdown-item" href="{% url 'register' %}">SignUp</a>
@@ -74,6 +74,10 @@
                 <li class="list-group-item list-group-item-light">Calendars</li>
               </ul>
           </div>
+            <br>
+             <div class="form-group">
+                <button class="btn btn-outline" href="{% url 'post-create' %}">Ask your Doubts NOW !</button>
+             </div>
         </div>
       </div>
     </main>
