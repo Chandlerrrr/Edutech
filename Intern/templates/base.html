@@ -11,13 +11,12 @@
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" media="all">
     <link rel="stylesheet" type="text/css" href="{% static 'intern/main.css' %}">
-    <title>Edutech</title>
+    <title>Coursify</title>
 </head>
 <body>
 <header class="site-header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="{%  url 'blog-home' %}"><b>Edutech</b></a>
-        <a class="navbar-brand" style="text-align:right">This is Coursify</a>
+        <a class="navbar-brand" href="{%  url 'blog-home' %}"><b>Coursify</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -77,6 +76,10 @@
             <br>
              <div class="form-group">
                 <button class="btn btn-outline"  type="submit" ><a class="btn btn-info" role="button" href="{% url 'post-create' %}">Ask your doubts now!</a></button>
+             </div>
+            <br>
+            <div class="form-group">
+                <button class="btn btn-outline"  type="submit" ><i class="fa fa-play" aria-hidden="true"><a  class="btn btn-info" role="button" href="https://play.google.com/store/apps/details?id=org.coursera.android" target="_blank" rel="external" >Download our Free App</a></i></button>
              </div>
         </div>
       </div>
