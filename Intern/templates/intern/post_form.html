@@ -6,7 +6,9 @@
             {% csrf_token %}
             <fieldset class="form-group">
                 <legend class="border-bottom mb-4">
-                    Blog Post
+                    <h2><p class="font-weight-bold"> Ask a public question </p></h2>
+                    <br>
+                    <p><small style="color: white" class="text-muted">Be specific and imagine you’re asking a question to another person</small></p>
                 </legend>
                 {{ form|crispy }}
             </fieldset>
