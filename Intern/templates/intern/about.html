@@ -1,9 +1,58 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
+    <head>
+
+        <title>Edutech</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'intern/about.css' %}">
+    </head>
     <div class="about-section">
         <h1>About Us Page</h1>
-        <p>Some text about who we are and what we do.</p>
-        <p>Clarify your doubt in your way.</p>
+        <p>We are Coursify . Solve your doubts faster with 1 million+ videos , Thousands of Books/Courses and Expert Tutors.</p>
+        <p>We Provide Live Classes for (JEE MAINS AND ADVANCED) & (NEET) preparations from our Expert Tutors with First Demo class FREEE!!!</p>
     </div>
+
+    <h2 style="text-align:center">Our Team of Tutors</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/ourteam/team1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Shivani Arora</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>ShivaniAroras@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/ourteam/team2.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+    <div class="column">
+        <div class="card">
+          <img src="/ourteam/team3.jpg" alt="John" style="width:100%">
+          <div class="container">
+            <h2>John Doe</h2>
+            <p class="title">Designer</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>johnDoe@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
 {% endblock content %}
 
