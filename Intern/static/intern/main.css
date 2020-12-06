@@ -1,6 +1,6 @@
 body {
   height: 100%;
-
+  width: 100%;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -8,21 +8,6 @@ body {
   #background: #f0f8ff ;
   color: #333333;
   margin-top: 0;
-}
-
-div {
-    display: block;
-}
-
-#myVideo{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 100%;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
