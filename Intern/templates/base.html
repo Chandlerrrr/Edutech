@@ -1,6 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -78,13 +78,14 @@
               </ul>
           </div>
             <br>
-             <div class="form-group">
-                <button class="btn btn-outline"  type="submit" ><a class="btn btn-info" role="button" href="{% url 'post-create' %}">Ask your doubts now!</a></button>
-             </div>
-            <br>
-            <div class="form-group">
-                <button class="btn btn-outline"  type="submit" ><a  class="btn btn-info" role="button" href="https://play.google.com/store/apps/details?id=org.coursera.android" target="_blank" rel="external" ><i class="fa fa-play" aria-hidden="true"></i>  Download our Free App</a></button>
-             </div>
+            <div class="card">
+                <img src="https://blogverge.s3.ap-south-1.amazonaws.com/reInvent19_1203_Venetian_142_sm.jpg" alt="reinvent">
+                <div class="form-group">
+                    <button class="btn btn-outline"  type="submit" ><a class="btn btn-info" role="button" href="{% url 'post-create' %}">Ask your doubts now!</a></button>
+                    <br>
+                    <button class="btn btn-outline"  type="submit" ><a  class="btn btn-info" role="button" href="https://play.google.com/store/apps/details?id=org.coursera.android" target="_blank" rel="external" ><i class="fa fa-play" aria-hidden="true"></i>  Download our Free App</a></button>
+                </div>
+            </div>
         </div>
       </div>
     </main>
