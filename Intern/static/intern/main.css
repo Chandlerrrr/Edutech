@@ -1,5 +1,4 @@
 body {
-  background-image: url('abc.png') !important;
   height: 100%;
 
   /* Center and scale the image nicely */
@@ -9,6 +8,18 @@ body {
   #background: #f0f8ff ;
   color: #333333;
   margin-top: 0;
+}
+
+#myVideo{
+  position: absolute;
+  right: 0;
+  object-fit: contain;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
