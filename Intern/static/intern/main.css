@@ -1,10 +1,14 @@
 body {
   background-image: url('a7014eb675a3369a326096882488e354d0bdd457.jpg') !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    margin: 0px auto 0;
-    position: relative;
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  #background: #f0f8ff ;
+  color: #333333;
+  margin-top: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,7 +24,7 @@ ul {
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #444444  !important;
+  color: #444444 !important;
 }
 
 .site-header .navbar-nav .nav-link:hover {

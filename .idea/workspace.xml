@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1644fd29-1878-4f79-a870-5c66d43f5e56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Intern/templates/intern/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/Intern/templates/intern/contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Edutech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Edutech.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intern/static/intern/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Intern/static/intern/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intern/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Intern/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intern/templates/intern/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Intern/templates/intern/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ourteam/team1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ourteam/team2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ourteam/team3.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +77,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Gautam\PycharmProjects\Edutech\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -103,7 +111,8 @@
       <workItem from="1605730295775" duration="172000" />
       <workItem from="1605730482187" duration="3000" />
       <workItem from="1605781444404" duration="2926000" />
-      <workItem from="1605810955279" duration="7229000" />
+      <workItem from="1605810955279" duration="7610000" />
+      <workItem from="1607274845466" duration="872000" />
     </task>
     <servers />
   </component>
