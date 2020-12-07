@@ -9,7 +9,11 @@ body {
   color: #333333;
   margin-top: 0;
 }
-
+.img-theme{
+  width: 100%;
+  height: auto;
+  max-height: 500px !important;
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
