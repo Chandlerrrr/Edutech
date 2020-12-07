@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1644fd29-1878-4f79-a870-5c66d43f5e56" name="Default Changelist" comment="initial commit pycharm">
-      <change beforePath="$PROJECT_DIR$/Intern/templates/intern/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Intern/templates/intern/about.html" afterDir="false" />
+    <list default="true" id="1644fd29-1878-4f79-a870-5c66d43f5e56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intern/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Intern/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intern/templates/intern/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Intern/templates/intern/post_detail.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +27,8 @@
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,7 +112,8 @@
       <workItem from="1605730482187" duration="3000" />
       <workItem from="1605781444404" duration="2926000" />
       <workItem from="1605810955279" duration="7610000" />
-      <workItem from="1607274845466" duration="11362000" />
+      <workItem from="1607274845466" duration="11410000" />
+      <workItem from="1607315179625" duration="526000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit pycharm">
       <created>1607285566459</created>
@@ -119,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607285566459</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit pycharm1">
+      <created>1607286307940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607286307940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +153,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit pycharm" />
+    <MESSAGE value="initial commit pycharm1" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit pycharm1" />
   </component>
 </project>

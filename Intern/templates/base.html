@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" media="all">
     <link rel="stylesheet" type="text/css" href="{% static 'intern/main.css' %}">
     <title>Coursify</title>
+
     <!-- facebook comment plugin -->
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0" nonce="jdpgsFJE"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -99,11 +100,13 @@
                 </ul>
             </div>
             <br>
+            {% block cards %}
             <div class="column">
                 <div class="card">
                     <img src="https://blogverge.s3.ap-south-1.amazonaws.com/reInvent19_1203_Venetian_142_sm.jpg" alt="reinvent" style="width:100%">
                 </div>
             </div>
+            {% endblock %}
             <div class="form-group">
                 <button class="btn btn-outline"  type="submit" ><a class="btn btn-info" role="button" href="{% url 'post-create' %}">Ask your doubts now!</a></button>
                 <br>
