@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1644fd29-1878-4f79-a870-5c66d43f5e56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intern/static/intern/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/Intern/static/intern/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intern/templates/intern/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Intern/templates/intern/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intern/static/intern/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Intern/static/intern/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intern/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Intern/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +97,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Edutech.settings" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Gautam\PycharmProjects\Edutech\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -132,7 +135,7 @@
       <workItem from="1605781444404" duration="2926000" />
       <workItem from="1605810955279" duration="7610000" />
       <workItem from="1607274845466" duration="11410000" />
-      <workItem from="1607315179625" duration="3785000" />
+      <workItem from="1607315179625" duration="4955000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit pycharm">
       <created>1607285566459</created>
@@ -148,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607286307940</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changes style">
+      <created>1607319134046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607319134046</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +183,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit pycharm" />
     <MESSAGE value="initial commit pycharm1" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit pycharm1" />
+    <MESSAGE value="changes style" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes style" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
